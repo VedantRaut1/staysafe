@@ -1,0 +1,45 @@
+{
+  "name": "staysafe",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "expo start --dev-client",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@react-native-async-storage/async-storage": "^1.24.0",
+    "@react-navigation/bottom-tabs": "^6.6.1",
+    "@react-navigation/native": "^6.1.18",
+    "@react-navigation/stack": "^6.4.1",
+    "axios": "^1.7.3",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "expo": "~51.0.26",
+    "expo-location": "~17.0.1",
+    "expo-sensors": "^13.0.9",
+    "expo-sms": "~12.0.1",
+    "expo-status-bar": "~1.12.1",
+    "express": "^4.19.2",
+    "module": "^0.0.1",
+    "react": "18.2.0",
+    "react-native": "0.74.5",
+    "react-native-contacts": "^7.0.8",
+    "react-native-permissions": "^4.1.5",
+    "react-native-safe-area-context": "^4.10.8",
+    "react-native-screens": "^3.34.0",
+    "react-native-sms": "^1.11.0",
+    "react-native-vector-icons": "^10.1.0",
+    "twilio": "^5.2.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0"
+  },
+  "private": true,
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
